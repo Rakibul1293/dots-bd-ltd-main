@@ -47,7 +47,8 @@ const Auth = () => {
     const signUpSubmits = (data) => {
         console.log(data);
 
-        axios.post('http://localhost:5000/auth/signup', data, {
+        // axios.post('http://localhost:5000/auth/signup', data, {
+        axios.post('https://song-listing-api.herokuapp.com/auth/signup', data, {
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -75,7 +76,8 @@ const Auth = () => {
         }
         console.log(data);
 
-        axios.post('http://localhost:5000/auth/signin', data, {
+        // axios.post('http://localhost:5000/auth/signin', data, {
+        axios.post('https://song-listing-api.herokuapp.com/auth/signin', data, {
             headers: {
                 'Content-Type': 'application/json'
                 //'Authorization' : `Bearer ${}`

@@ -19,7 +19,8 @@ const SongList = (props) => {
 
     const handleClickDelete = () => {
         alert("Are you sure ? You want to Delete ?");
-        axios.delete(`http://localhost:5000/api/userInfoDelete/${props.data._id}`)
+        // axios.delete(`http://localhost:5000/api/userInfoDelete/${props.data._id}`)
+        axios.delete(`https://song-listing-api.herokuapp.com/api/userInfoDelete/${props.data._id}`)
             .then(res => {
                 console.log(res);
             })
@@ -28,7 +29,8 @@ const SongList = (props) => {
                 alert('Opps !!! Not Deleted. Please try again');
             })
 
-        axios.get('http://localhost:5000/api/')
+        // axios.get('http://localhost:5000/api/')
+        axios.get('https://song-listing-api.herokuapp.com/api/')
             .then(res => {
                 console.log(res);
                 setAllData(res.data);

@@ -23,7 +23,8 @@ const MyList = () => {
     });
 
     useEffect(() => {
-        axios.get('http://localhost:5000/api/')
+        // axios.get('http://localhost:5000/api/')
+        axios.get('https://song-listing-api.herokuapp.com/api/')
             .then(res => {
                 console.log(res);
                 setAllData(res.data);
