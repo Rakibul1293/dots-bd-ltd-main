@@ -1,0 +1,40 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    padding-top: 70px;
+}
+
+#nav .logo-position {
+    position: absolute;
+    left: 47%;
+}
+
+#nav .nav-text {
+    position: absolute;
+    right: 33%;
+    top: 167%;
+    padding-bottom: 107px;
+}
+
+#nav .line-bar-right {
+    width: 101px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    bottom: -45px;
+    left: -81px;
+}
+
+#nav .line-bar-left {
+    width: 101px;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    bottom: -45px;
+    right: -81px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent;
+}

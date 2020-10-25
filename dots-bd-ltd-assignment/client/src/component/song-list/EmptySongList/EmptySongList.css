@@ -1,0 +1,29 @@
+#empty-song-list .clearfixes::after {
+    content: "";
+    display: block;
+    clear: both;
+    padding-top: 207px;
+}
+
+#empty-song-list .empty-song {
+    color: gray;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 23px;
+}
+
+#empty-song-list .icon {
+    color: gray;
+    text-align: center;
+}
+
+#empty-song-list .anticon {
+    text-align: center;
+    font-size: 151px;
+}
+
+#empty-song-list .icon-text {
+    padding-top: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}

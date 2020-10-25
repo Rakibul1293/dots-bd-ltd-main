@@ -1,0 +1,6 @@
+#home .end-section .anticon {
+    display: none;
+}
+#home .icon .anticon {
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+}
+#avatar span.ant-upload:focus{
+    outline: none;
+}
+#avatar .anticon {
+    font-size: 217px;
+    color: darkgray;
+    margin-left: 25%;
+    padding-top: 25%;
+}
+#avatar .deleteBtn {
+    position: relative;
+    bottom: -291px;
+}

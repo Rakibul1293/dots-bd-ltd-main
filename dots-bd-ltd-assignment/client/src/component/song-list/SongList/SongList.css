@@ -1,0 +1,66 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    padding-top: 70px;
+}
+.songlist {
+    border-top: 1px solid #8888886b;
+}
+#song-list .card {
+    display: flex;
+    box-shadow: 1px 1px #8888886b;
+    margin-top: 23px;
+}
+
+.first-section, .middle-section, .end-section {
+    display: inline-block;
+}
+
+.middle-section {
+    margin-left: 4% !important;
+}
+
+.end-section {
+    margin-left: 13%;
+}
+
+#song-list .first-section img {
+    width: 97px;
+    height: 125px;
+    border: 1px solid #8080806b;
+}
+
+.first-section p, .middle-section p {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.middle-section .top-section p span:nth-child(1) {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.top-section {
+    padding-bottom: 31px;
+    padding-top: 5px;
+}
+
+.bottom-section p span {
+    font-weight: 600;
+}
+
+.end-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.anticon {
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 23px;
+    cursor: pointer;
+}
